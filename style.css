@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+  }
+
+  body {
+    margin: 0;
+  }
+ 
+  
+
+  #navbar {
+    
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    border-right: 3px solid grey;
+    background-color: beige;
+    padding: 0.5rem 0 0 0.8rem;
+    
+  }
+
+  #navbar > ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+   
+    }
+
+    #navbar ul > li {
+    border-top: 1.2px solid grey;
+    padding: 0.8rem;
+    }
+ 
+    .nav-link, 
+    a:link, 
+    a:visited, 
+    a:hover {
+    text-decoration: none;
+    color: black;
+    }
+
+    code {
+    background-color: beige;
+    padding: 0.5rem;
+    }
+
+    section {
+    padding: 0.5rem;
+    margin-bottom: 0.2rem;
+    }
+
+
+
+
+  /* Fonts */
+
+  #main-doc, 
+  #navbar,
+  .nav-link{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+ }
+
+ header,
+ #navbar > header {
+   font-size: 2rem;
+   font-weight: 500;
+ }
+
+    /* __________________ */
+ 
+ 
+ #main-doc {   
+   
+   margin: 0 0 0.8rem 20rem;
+   max-width: 80%;
+   
+
+  }
+  
+  /* @media screen and (max-width: 800px) {
+   #navbar {
+        position: relative;
+        display:inline;
+        
+
+        
+    }
+
+    #navbar ul > li {
+        font-size: 1rem;
+        text-align: center;
+
+        overflow: hidden;
+        height: 50px;
+        
+    }
+
+    #navbar > header {
+        text-align: center;
+    }
+
+
+} */
+ 
+
