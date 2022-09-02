@@ -52,6 +52,7 @@ html {
     code {
     background-color: beige;
     padding: 0.5rem;
+    
     }
 
     section {
@@ -115,6 +116,7 @@ html {
         border-top: none;
         border: 0.1rem solid grey;
         font-size: 1rem;
+        margin-bottom: 0.8rem;
         }
 
     
